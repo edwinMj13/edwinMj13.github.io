@@ -1,0 +1,7 @@
+Youtube - Designed a clone of youtube with basic codebase. 
+When the Youtube window is shrinked there will be a design flaw in some elements
+
+
+
+Instagram - Designed the clone of Instagram with better code than youtube. Gave nav tag to the left side menu. The icon of the instagram is from the original instagram site.
+When the instagram window is shrinked there will be a design flaw in some elements
