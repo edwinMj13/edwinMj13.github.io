@@ -1,0 +1,7 @@
+Learned about javascript jquery and bootstrap
+
+Zomato - Designed a responsive clone site for Zomato,with bootstrap and all
+
+
+
+Personal Website - Designed a personal website for me with the help of brototype channel
