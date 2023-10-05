@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+    html{
+      overflow-y: scroll;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    html::-webkit-scrollbar {
+      width: .5em;
+    }
+
+    html::-webkit-scrollbar-thumb {
+      background-color: rgb(211, 211, 211);
+      border-radius: 5px;
+
+    }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <header>
+        <div class="container-fluid text-center">
+            <div class="row" >
+                <img style="width: 100%;" src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="">
+                <div class="card-img-overlay"
+                    style="display: flex;flex-direction: column; align-items: center;justify-content: center;position: absolute;">
+                    <h1 style="color: white;"><strong>Zomato</strong></h1>
+                    <h4 style="color: white"> Find the Best Restaurants and Bars in India</h4>
+                </div>
+                <div class="card-img-overlay  align-items-center">
+                    <div class="col-6 col-sm-1">
+                        <span></span>
+                    </div>
+                    <div class="col-6 col-sm-1">
+                        <nav class="navbar navbar-expand-lg navbar-light ">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <a class="navbar-brand" href="#">Add Restaurant</a>
+
+                                    <div>
+                                        <img class="rounded-circle"
+                                            src="https://lh3.googleusercontent.com/ogw/AKPQZvzlfTzS4zA-oEKtdFi9F_06Zz5HofiqB_cGMkKXng=s32-c-mo"
+                                            alt="">
+                                    </div>
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Edwin
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="container mt-3">
+                    <h2>Popular locations in <img src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp"
+                            alt=""> India</h2>
+                    <h4 style="color: grey;">From swanky upscale restaurants to the cosiest hidden gems serving the
+                        most incredible food, Zomato covers it all. Explore menus, and millions of restaurant photos
+                        and reviews from users just like you, to find your next great meal
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="mt-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Agra Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Ahamedabad Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Ajmer Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Alappuzha Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Allahabad Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Amravati Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Amritsar Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Aurangabad Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Bengaluru Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Bhopal Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Bhubaneswar Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Chandigarh Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Chennai Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Coimbatore Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Cuttack Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Darjeeling Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Dehradun Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Delhi NCR Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Dharmashala Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Gangtok Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Guwahati Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Gwalior Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Haridwar Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <span></span>
+                        <span>Hyderabad Restaurants</span>
+                        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 mb-5">
+            <h1> All Countries</h1>
+
+            <div class="row ">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src=" https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> India</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img alt="image" src="https://b.zmtcdn.com/images/flags_z10/au.png?output-format=webp">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Australia</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-3 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img alt="image" src="https://b.zmtcdn.com/images/flags_z10/br.png?output-format=webp">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Brazil</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img alt="image" src="https://b.zmtcdn.com/images/flags_z10/ca.png?output-format=webp">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Canada</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src=" https://b.zmtcdn.com/images/flags_z10/cl.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Chile</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src=" https://b.zmtcdn.com/images/flags_z10/cz.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Chez Republic</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src=" https://b.zmtcdn.com/images/flags_z10/id.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> India</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/ie.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Ireland</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src=" https://b.zmtcdn.com/images/flags_z10/it.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Italy</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/lb.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Lebanon</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/my.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Malaysia</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/nz.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> New Zealand</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/ph.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Philippines</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/pl.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Poland</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/pt.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;">Portugal</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/qa.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Qatar</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/sg.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Singapore</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/sk.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Slovakia</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/za.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> South Africa</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/lk.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> Sri Lanka</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/tr.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;">Turkey</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/ae.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> UAE</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/gb.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;"> United Kingdom</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4">
+                    <div class="card p-2 mt-3"
+                        style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                        <div
+                            style="display: flex;flex-direction: row;align-items: center; justify-content: space-between;">
+                            <div>
+                                <img src="https://b.zmtcdn.com/images/flags_z10/us.png?output-format=webp" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 20px;">United States</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div class="row" style="border-bottom: 1px solid rgb(220, 220, 220);">
+                <div class="row pt-5">
+                    <div class="col-md-6 p-2">
+                        <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&amp;crop=198:42;*,*"
+                            alt="Zomato logo" class="sc-elhb8j-1 ixsoFB">
+                    </div>
+                    <div class="col-md-6  p-2 text-center" style="display: flex;flex-direction: row;">
+                        <div class="dropdown">
+                            <a class="btn btn-outline-secondary dropdown-toggle text-center text-dark" href=""
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                                <img style="height: 20px;width: 25px;"
+                                    src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp" alt="">
+                                India
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-secondary dropdown-toggle text-dark" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="18" height="18"
+                                    viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img"
+                                    class="sc-rbbb40-0 iwHbVQ">
+                                    <title>language-globe</title>
+                                    <path
+                                        d="M10 0c-5.523 0-10 4.477-10 10s4.477 10 10 10c5.523 0 10-4.477 10-10v0c-0.011-5.518-4.482-9.989-9.999-10h-0.001zM17.14 6.18h-3c-0.264-1.393-0.63-2.62-1.107-3.791l0.047 0.131c1.755 0.733 3.161 2.010 4.039 3.618l0.021 0.042zM18.1 10c-0.002 0.676-0.090 1.33-0.252 1.954l0.012-0.054h-3.44c0.059-0.57 0.092-1.231 0.092-1.9s-0.034-1.33-0.099-1.982l0.007 0.082h3.44c0.15 0.57 0.238 1.224 0.24 1.899v0.001zM1.9 10c0.002-0.676 0.090-1.33 0.252-1.954l-0.012 0.054h3.46c-0.059 0.57-0.092 1.231-0.092 1.9s0.034 1.33 0.099 1.982l-0.007-0.082h-3.46c-0.15-0.57-0.238-1.224-0.24-1.899v-0.001zM7.48 8.1h5.040c0.063 0.57 0.099 1.231 0.099 1.9s-0.036 1.33-0.107 1.981l0.007-0.081h-5.040c-0.063-0.57-0.099-1.231-0.099-1.9s0.036-1.33 0.107-1.981l-0.007 0.081zM10.76 1.9c0.603 1.228 1.106 2.657 1.436 4.152l0.024 0.128h-4.44c0.354-1.623 0.857-3.052 1.51-4.395l-0.050 0.115c0.24 0 0.5 0 0.76 0s0.48 0 0.76 0zM6.96 2.48c-0.445 1.051-0.825 2.291-1.079 3.576l-0.021 0.124h-3c0.899-1.65 2.305-2.927 4.007-3.64l0.053-0.020zM2.86 13.8h3c0.262 1.4 0.629 2.634 1.107 3.811l-0.047-0.131c-1.757-0.738-3.165-2.022-4.039-3.637l-0.021-0.043zM9.24 18.1c-0.605-1.234-1.108-2.67-1.437-4.172l-0.023-0.128h4.44c-0.352 1.63-0.855 3.066-1.51 4.415l0.050-0.115c-0.24 0-0.5 0-0.76 0s-0.48 0-0.76 0zM13.040 17.52c0.431-1.046 0.798-2.28 1.041-3.558l0.019-0.122h3.040c-0.902 1.642-2.308 2.912-4.006 3.62l-0.054 0.020z">
+
+                                    </path>
+                                </svg>
+                                English
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row mt-5 mb-5" style="display: flex;flex-direction: row;justify-content: space-between;">
+                    <div class="col-md-2 ">
+                        <span style="font-weight: bold;">About Zomato</span><br>
+                        <span>Who We Are</span><br>
+                        <span>Blog</span><br>
+                        <span>Work With Us</span><br>
+                        <span>Investor Relations</span><br>
+                        <span>Report Fraud</span><br>
+                        <span>Press Kit</span><br>
+                        <span>Contact Us</span>
+
+
+                    </div>
+                    <div class="col-md-2 ">
+                        <span style="font-weight: bold;">Zomato</span><br>
+                        <span>Blinkit</span><br>
+                        <span>Feeding INdia</span><br>
+                        <span>Hyperpure</span><br>
+                        <span>Zomaland</span>
+                    </div>
+                    <div class="col-md-2 ">
+                        <span style="font-weight: bold;">For Restaurants</span><br>
+                        <span>Partner With Us</span><br>
+                        <span>Apps For You</span><br>
+                        <br>
+                        <span style="font-weight: bold;">For Enterprises</span><br>
+                        <span>Zomato For Enterprise</span><br>
+
+                    </div>
+                    <div class="col-md-2 ">
+                        <span style="font-weight: bold;">Learn More</span><br>
+                        <span>Privacy</span><br>
+                        <span>Security</span><br>
+                        <span>Terms</span><br>
+                        <span>Sitemap</span>
+
+                    </div>
+                    <div class="col-md-2 ">
+                        <span style="font-weight: bold;">Social Links</span><br>
+                        <div class="mt-3">
+                            <a class="p-1" href="https://www.facebook.com/edwin.babymj"
+                                style="text-decoration: none;color: rgb(255, 255, 255);">
+                                <i class="fa-brands fa-square-facebook fa-xl rounded-circle"
+                                    style="color: #000000;"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/android.mj/" style="text-decoration: none;color: white;">
+                                <i class="fa-brands fa-instagram fa-xl" style="color: #000000;"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/edwin-baby-b40232139/"
+                                style="text-decoration: none;color: white;">
+                                <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i>
+                            </a>
+
+                            <a href="https://github.com/edwinMj13" style="text-decoration: none;color: white;">
+                                <i class="fa-brands fa-square-github fa-xl" style="color: #000000;"></i>
+                            </a><br>
+
+                            <img class="mt-3" style="height: 2.5em;width: 8em;"
+                                src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                                alt="">
+                            <img class="mt-3" style="height: 2.5em;width: 8em;"
+                                src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                                alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 pb-5">
+                <span style="color: gray;">
+                    By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+                    Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd.
+                    All rights reserved.
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</body>
+
+</html>
