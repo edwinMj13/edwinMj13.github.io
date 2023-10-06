@@ -1,0 +1,41 @@
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  html::-webkit-scrollbar {
+    width: .5em;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+
+  }
+  @media screen and (min-width:1200) {
+      .img_over_text{
+          font-size: 190rem;
+      }
+      .row img{
+          height: 250px;
+      }
+  }
+  @media screen and (min-width:992) {
+      .img_over_text{
+          font-size: 17rem;
+      }
+      .row img{
+        height: 150px;
+    }
+  }
+  @media screen and (min-width:768) {
+      .img_over_text{
+          font-size: 15rem;
+      }
+  }
+  @media screen and (min-width:576) {
+      .img_over_text{
+          font-size: 13rem;
+      }
+  }
