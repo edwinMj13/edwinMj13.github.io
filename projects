@@ -1,0 +1,232 @@
+// farenheit ccelcius
+  /*
+print("Farenheit Celcius table");
+print("-----------------------");
+    for(int i=0;i<=150;){
+      print("Farenhiet ${(i*9/5)+32}f - Celcius ${i}c");
+      i+=10;
+    }*/
+
+  // change multiple spaces to single space
+  /*  stdout.write("Enter a String with multiple Spaces : ");
+  String? str=stdin.readLineSync();
+
+  String? result=str!.replaceAll(RegExp(r"\s+")," ");
+  print("Result is $result");
+  */
+
+  // adding 2 2D arrays with methods
+  /* stdout.write("Enter number of rows for both arrays : ");
+  int rows = int.parse(stdin.readLineSync()!);
+
+  stdout.write("Enter number of columns for both arrays : ");
+  int cols = int.parse(stdin.readLineSync()!);
+
+  List<List<int>> array1 = List.generate(rows, (row) => List.filled(cols, 0));
+  List<List<int>> array2 = List.generate(rows, (row) => List.filled(cols, 0));
+
+
+  void getArray() {
+    for (int i = 0; i < rows; i++) {
+      for (int j = 0; j < cols; j++) {
+        stdout.write("Enter a value for position ($i , $j)  in Array 1 ");
+        array1[i][j] = int.parse(stdin.readLineSync()!);
+      }
+    }
+    for (int i = 0; i < rows; i++) {
+      for (int j = 0; j < cols; j++) {
+        stdout.write("Enter a value for position ($i , $j) in Array 2");
+        array2[i][j] = int.parse(stdin.readLineSync()!);
+      }
+    }
+  }
+  List<List<int>> arrayTotal =
+      List.generate(rows, (row) => List.filled(cols, 0));
+  void addArray() {
+    for (int i = 0; i < rows; i++) {
+      for (int j = 0; j < cols; j++) {
+        arrayTotal[i][j] = array1[i][j] + array2[i][j];
+      }
+    }
+  }
+  void displayArray(){
+    print("Array 1 $array1\n");
+    print("Array 2 $array2\n");
+    print("Total $arrayTotal");
+
+  }
+  getArray();
+  addArray();
+  displayArray();
+*/
+
+  // add adjacent values in an array
+/*  stdout.write("Enter the values of the array ( comma seperated ) : ");
+  String? str=stdin.readLineSync();
+
+  List<String>? strArray=str?.split(",");
+  List<int> intArray=[];
+  List<int> addedArray=[];
+  for(String str in strArray!){
+    int intt=int.parse(str);
+    intArray.add(intt);
+  }
+
+  for(int i=0;i<intArray.length-1;i++){
+    int val=intArray[i]+intArray[i+1];
+    print(val);
+    addedArray.add(val);
+  }
+  print("Added array $addedArray");
+*/
+
+  // number pattern continuation
+  /* int n=1;
+  stdout.write("Enter the limit : ");
+  int limit=int.parse(stdin.readLineSync()!);
+
+  for(int i=0;i<limit;i++){
+    for(int j=0;j<=i;j++){
+      stdout.write(" $n");
+      n++;
+    }
+    stdout.write("\n");
+  }
+*/
+
+  // Income Tax
+  /* stdout.write("Enter the annual income : ");
+  int annInc=int.parse(stdin.readLineSync()!);
+
+  if(annInc<=250000){
+    print("No Tax");
+  }else if(annInc>250000 && annInc<=500000){
+    print("Tax is 5%");
+    print("Income Tax Amount is ${(annInc*5)/100} ");
+  }else if(annInc>500000 && annInc<=1000000){
+    print("Tax is 20%");
+    print("Income Tax Amount is ${(annInc*20)/100} ");
+  }else if(annInc>1000000 && annInc<=5000000){
+    print("Tax is 30%");
+    print("Income Tax Amount is ${(annInc*30)/100} ");
+  }
+*/
+
+  // Weighted Avg
+  /*
+  stdout.write("Enter Score in Written Test : ");
+  int wT=int.parse(stdin.readLineSync()!);
+
+  stdout.write("Enter Score in Lab Exam : ");
+  int lT=int.parse(stdin.readLineSync()!);
+
+  stdout.write("Enter Score in Assignment : ");
+  int aT=int.parse(stdin.readLineSync()!);
+
+  double wAvg=((wT*70)/100) + ((lT*20)/100) + ((aT*10)/100);
+  print("The weighted Average is $wAvg");
+  */
+
+  // mathematical operations
+/*
+  stdout.write("enter 1st number : ");
+  int fst=int.parse(stdin.readLineSync()!);
+  stdout.write("enter 2nd number : ");
+  int snd=int.parse(stdin.readLineSync()!);
+  int multiplation(){
+    return fst*snd;
+  }
+  int addition(){
+    return fst+snd;
+  }
+  double division(){
+    return (fst/snd);
+  }
+  int substraction(){
+    return fst-snd;
+  }
+  stdout.write(
+      "Enter the option \n 1. Addition \n 2. Substraction \n 3. Multiplication \n 4. Division \n ");
+  int option = int.parse(stdin.readLineSync()!);
+  switch(option){
+    case 1:
+      print(addition());
+      break;
+    case 2:
+      print(substraction());
+      break;
+    case 3:
+      print(multiplation());
+      break;
+    case 4:
+      print(division());
+      break;
+    default:
+      print("Invalid Entry ");
+  }
+*/
+
+// prime number
+/*  stdout.write("Enter the number : ");
+  String? n=stdin.readLineSync();
+  int num=int.parse(n!);
+
+  if(num==1||num==2){
+    print("$num Prime Number");
+  }else if(num%2!=0 && num%3!=0){
+    print("$num Prime Number");
+  }else{
+    print("$num Not Prime");
+  }
+  */
+
+  // function calling
+  /* List<String>? array;
+
+  void getArray() {
+    stdout.write("Enter values for the array ( comma seperated ) : ");
+    String? vals = stdin.readLineSync();
+    array = vals?.split(",");
+  }
+
+  void displayArray() {
+    print(array);
+  }
+
+  getArray();
+
+  displayArray();
+  */
+
+  // Add 2 2D Arrays
+/*
+  stdout.write("Enter no of rows in both arrays : ");
+  int rows=int.parse(stdin.readLineSync()!);
+
+  stdout.write("Enter no of columns in both arraays : ");
+  int cols=int.parse(stdin.readLineSync()!);
+
+  List<List<int>> array1=List.generate(rows, (row) => List.filled(cols,0));
+  List<List<int>> array2=List.generate(rows, (index) => List.filled(cols,0));
+
+  for(int i=0;i<rows;i++){
+    for(int j=0;j<cols;j++){
+      stdout.write("Enter element for 1st Array in position ($i , $j)");
+      array1[i][j]=int.parse(stdin.readLineSync()!);
+    }
+  }
+  print(array1);
+  for(int i=0;i<rows;i++){
+    for(int j=0;j<cols;j++){
+      stdout.write("Enter element for 2nd Array in position ($i , $j)");
+      array2[i][j]=int.parse(stdin.readLineSync()!);
+    }
+  }
+  print(array2);
+  List<List<int>> lastArray=List.generate(rows, (index) => List.filled(cols,0));
+  for(int i=0;i<rows;i++){
+    for(int j=0;j<cols;j++){
+      lastArray[i][j]=array1[i][j]+array2[i][j];
+    }
+  }
+  print(lastArray);
