@@ -1,0 +1,5 @@
+In the week 4 my assignment was to do an a flutter app which we can signup and login with unsername and password. The a home page will be shown. 
+In that home page there will be a lkist of cricket players with details. if we click any one of the item then a popup will be show with the clicked player details. 
+We can logout and signout from the app, we can do that from the 3 dot button in the top right of the app bar. there will be 3 options , if we click those options the operations will be done accordingly..
+I did the tech seminar about comparison between various programming languages such as python, java, javascript, swift, kotlin, etc...
+Did the typing club task and completed 59th level. 
