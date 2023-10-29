@@ -1,0 +1,11 @@
+
+One of the weeks assignment was to learn about local storage, hive shared preferences, sqflite etc… 
+I’ve done my assignment with shared preferences in week 4, it was a login page. This week I did a login page with sqflite, 
+Its student record can edit and update, we can create new record also.. This week’s personal development workout was about
+to write a review about the movie  “shawshank redemption” and to write a review about the book “Discipline Equals Freedom” 
+by Jocko Willink. The movie deals about hope, courage, intelligence etc… and the book is all about the strength of descipline.
+
+Then the Second task is to do an app with sqlite database. Insert student details such as name, age, place, martialstatus and an image. .
+To do this app I used flutter_sqflite package. Did operations such as create, insert, update, delete and also did search. 
+The first page of app shows the list of saved students then we can add another student by clicking the add button in the appbar.
+We can edit delete the students details, and these operations is also available for search.
