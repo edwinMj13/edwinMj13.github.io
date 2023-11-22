@@ -1,0 +1,5 @@
+Week 1 - Finish the design part Mobile
+Week 2 - Finish both mobile and web designs
+Week 3 - Functionalities of the app
+Week 4 - Checking the functionalities in both Mobile and Web
+Week 5 - Overall app optimization

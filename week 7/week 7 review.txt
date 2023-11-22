@@ -1,0 +1,2 @@
+This week was about the project planning. Im doing a Music Player App.
+I did some researches about the tutorials on Music player app with flutter for both mobile and web app. But the full package doesnot exist. so i took the functionality from one tutorial and designed the ui by myself for mobile and web app. The ui id designed was in Figma.
