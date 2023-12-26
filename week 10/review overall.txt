@@ -1,0 +1,3 @@
+This week has been many edits which are playing song from anywhere, autoplay when selecting a song, the next and previous scection in player screen, creating playlist in playlist scren and edit option in all songs screen.
+making file naming look like professional like. Search option in All song screen, these are the pending thing that need to finish. And for the week the tasks were to add the recent screen and the profile screen. In the profile screen name and phone number is the only one thts shown.
+And in the recent section there is only 10 songs shown in the section. if one more song is added then the old song which was added will be deleted.
