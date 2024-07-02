@@ -1,0 +1,1 @@
+Its been a wonderful week of ups and downs. I know that ill finish the task but it took many time to understand the logic of getx. And at the same time i learned about other state    management solutions like bloc and provider. I learned about how to implement state management in counter app.
