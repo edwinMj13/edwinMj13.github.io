@@ -1,0 +1,1 @@
+Week 20 has been very creative as it was the week of designing the app project that i am on. I'm developing an ecommerce app with products hardware items, electrical items, plastic. etc... I need to add order details screen in admin panel and also order tracking in mobile app, Apart form that everything is finished
