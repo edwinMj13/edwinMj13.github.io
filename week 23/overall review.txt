@@ -1,0 +1,2 @@
+Its been a wonderfull week. I lost 1st 2 or 3 days for fever and cough. But somehow I've managed to do most of the tasks. And there is still some of the tasks pending. Such as image loading in admin, dropdownbutton problems n both admin panel and in user side, search filter is pending but the design popup for search is finished just to implement the filter feature.
+categories added,cart screen finished,product details finished.
