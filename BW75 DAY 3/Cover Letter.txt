@@ -1,0 +1,25 @@
+To,
+Hiring Manager,
+ABC Technologies
+
+From,
+Edwin Baby,
+Flutter Developer
+
+Respected Sir/Madam,
+
+I'm writing this letter to apply for the position of Flutter Developer. I'm really into this job posting and with the experience that I have, I believe I'm a competitive candidate for the job.
+
+My Strengths :
+
+* Learned the developing skill by myself.
+* Flexibility with working time.
+* A collaborative team member.
+* A disciplined individual.
+
+I have a previous experience as an Android Developer. I've worked in 4 projects as an Android Develoer. As a Flutter Developer I've finished 2 projects. The first one is Music Player App and the other one is an E-Commerce project. Please go through my Resume for further info.
+
+Please feel free to contact me on +91 8138978885 or edwinbabymj@gmail.com.
+
+yours sincerely,
+Edwin Baby.
